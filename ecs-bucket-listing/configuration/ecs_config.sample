@@ -1,0 +1,23 @@
+{
+  "BASE": {
+    "logging_level": "info",
+    "namespace": "xxxxxx",
+    "objectuser": "xxxxxx"
+  },
+  "ECS_CONNECTION": [
+  {
+    "protocol": "https",
+    "host": "xx.xx.xx.xx.",
+    "port": "4443",
+    "user": "root",
+    "password": "ChangeMe",
+    "dataType": "default",
+    "category":"default",
+    "connectTimeout": "15",
+    "readTimeout": "60"
+  }
+  ],
+  "ECS_API_POLLING_INTERVALS": {
+    "ecs_collect_bucket_info()": "30"
+  }
+}
